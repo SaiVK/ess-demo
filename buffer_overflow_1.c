@@ -8,7 +8,7 @@ int reveal_secret(char* name){
     return 0;
 }
 
-int main(){
+int process(){
     char otp[4];
     char input_otp[4];
     char name[10];
@@ -36,5 +36,10 @@ int main(){
     else {
         printf("Oops!! Try again\n");
     }
+    return 0;
+}
+
+int main(){
+    process();
     return 0;
 }
