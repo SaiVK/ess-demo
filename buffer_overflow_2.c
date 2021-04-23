@@ -41,5 +41,6 @@ int process(){
 
 int main(){
     process();
+    printf("\nDone\n");
     return 0;
 }
