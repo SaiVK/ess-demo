@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-void function(int a, int b, int c)
+void skip_function(int a, int b, int c)
 {
 	int *ret=NULL;
 	char buffer[16];
 	ret=(int *)(buffer+24);
-	(*ret)+=8;
+	// (*ret)+=8;
 }
 void main()
 {
