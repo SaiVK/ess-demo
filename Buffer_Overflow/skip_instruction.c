@@ -11,7 +11,7 @@ void main()
 {
 	int x;
 	x=0;
-	function(1,2,3);
+	skip_function(1,2,3);
 	x=1;
 	printf("value of x is %d\n",x);
 }
