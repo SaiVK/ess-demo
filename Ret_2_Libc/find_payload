@@ -1,0 +1,3 @@
+#!/usr/bin/python 
+padding = 'A' * 76
+print padding
